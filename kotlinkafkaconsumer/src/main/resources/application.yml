@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  kafka:
+    consumer:
+      enable-auto-commit: true
+      group-id: applog
+      auto-offset-reset: latest
+      bootstrap-servers: 127.0.0.1:9092
